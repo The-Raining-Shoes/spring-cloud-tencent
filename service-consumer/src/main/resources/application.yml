@@ -1,0 +1,10 @@
+server:
+  port: 8097
+spring:
+  application:
+    name: service-consumer
+  cloud:
+    polaris:
+      address: grpc://139.155.181.217:8091
+      namespace: test
+      service: ${spring.application.name}

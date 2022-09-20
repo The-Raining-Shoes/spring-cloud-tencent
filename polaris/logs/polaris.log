@@ -1,0 +1,11 @@
+2022-09-20 11:12:09.985 INFO [main :c.t.p.p.c.g.ConnectionManager] [ServerConnector]cluster BUILTIN_CLUSTER, service null has been made ready
+2022-09-20 11:12:09.986 INFO [main :c.t.p.p.c.g.ConnectionManager] [ServerConnector]cluster SERVICE_DISCOVER_CLUSTER, service null has been made ready
+2022-09-20 11:12:09.987 INFO [main :c.t.p.p.c.g.ConnectionManager] [ServerConnector]cluster SERVICE_CONFIG_CLUSTER, service null has been made ready
+2022-09-20 11:12:09.987 INFO [main :c.t.p.p.c.g.ConnectionManager] [ServerConnector]cluster HEALTH_CHECK_CLUSTER, service null has been made ready
+2022-09-20 11:12:10.002 INFO [main :c.t.p.p.r.m.InMemoryRegistry] start to load local cache files from ./polaris/backup
+2022-09-20 11:12:10.012 INFO [main :c.t.p.p.r.m.InMemoryRegistry] loaded 0 services from local cache
+2022-09-20 11:12:10.018 WARN [main :c.t.p.a.p.c.Extensions] router metadataRouter not found
+2022-09-20 11:12:10.018 WARN [main :c.t.p.a.p.c.Extensions] router ruleBasedRouter not found
+2022-09-20 11:12:10.018 WARN [main :c.t.p.a.p.c.Extensions] router nearbyBasedRouter not found
+2022-09-20 11:12:11.982 INFO [main :c.t.p.d.c.a.DefaultProviderAPI] register test/service-producer instance 02d21a1191f10bd16506e0bd83151e8df5e24cb1 succ
+2022-09-20 11:12:11.986 INFO [main :c.t.p.p.s.p.h.PrometheusHandler] start schedule metric aggregation task, task interval 30000

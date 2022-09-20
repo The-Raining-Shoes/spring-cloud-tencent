@@ -1,0 +1,19 @@
+server:
+  port: 8095
+spring:
+  application:
+    name: service-register
+  cloud:
+    polaris:
+      address: grpc://139.155.181.217:8091
+      namespace: test
+      service: ${spring.application.name}
+      discovery:
+        enabled: true
+        register: true
+        instance-enabled: true
+        heartbeat-enabled: true
+        heartbeat-interval: 5000
+        health-check-url:
+        service-list-refresh-interval: 2000
+        token:

@@ -1,0 +1,14 @@
+server:
+  port: 8098
+spring:
+  application:
+    name: service-producer
+  cloud:
+    polaris:
+      address: grpc://139.155.181.217:8091
+      discovery:
+        enabled: true
+      stat:
+        enabled: true
+      namespace: test
+      service: ${spring.application.name}
